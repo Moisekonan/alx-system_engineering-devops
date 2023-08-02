@@ -1,3 +1,2 @@
 #!/bin/bash
-current_directory=$(pwd)
-echo "Le répertoire de travail actuel est : $current_directory"
+echo "Le répertoire de travail actuel est : $(pwd)"
