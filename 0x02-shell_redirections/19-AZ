@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Entrez une chaîne de caractères : " input; result="${input//A/Z}"; echo "${result//c/e}"
+

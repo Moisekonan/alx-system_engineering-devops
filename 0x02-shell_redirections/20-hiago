@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Enter a string: " input; result="${input//c/}"; result="${result//C/}"; echo "$result"
+
