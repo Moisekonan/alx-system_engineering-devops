@@ -11,3 +11,5 @@ Solution :
 echo "Le nombre de répertoires dans le PATH est : $(echo "$PATH" | tr ':' '\n' | wc -l)"
 printenv / env ==> affiche les variables environnement
 set ==> affiches toutes les variables(env;locals;globales)
+nomvar="value"  ==> var local
+export nomvar="value"  ==> var global
