@@ -8,3 +8,4 @@ Solution :
    #!/bin/bash
    echo "hello $(whoami)"
 
+echo "Le nombre de répertoires dans le PATH est : $(echo "$PATH" | tr ':' '\n' | wc -l)"
