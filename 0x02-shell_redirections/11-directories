@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | grep -c "^d" 
+find . -type d -not -path '*/\.*' -mindepth 1 | wc -l 
